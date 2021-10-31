@@ -34,8 +34,8 @@ public class UserController {
             Set<UserRole> roles = new HashSet<>();
 
             Role role = new Role();
-//            role.setRoleName("Normal");
-              role.setRoleName("Admin");
+            role.setRoleName("Normal");
+//              role.setRoleName("Admin");
 
             user.setPassword(this.passwordEncoder.encode(user.getPassword()));
 
