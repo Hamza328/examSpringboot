@@ -1,1 +1,2 @@
-web: java -jar target/ExamPortal-1.0.0.jar
+web: java -Dserver.port=$PORT -jar .mvn/wrapper/*.jar
+

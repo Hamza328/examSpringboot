@@ -1,0 +1,9 @@
+{
+    "name" : "examspringboot",
+    "buildpacks":[
+        {
+            "url": "heroku/maven"
+        }
+    ]
+
+}
